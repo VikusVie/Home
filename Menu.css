@@ -90,10 +90,7 @@ label, #toggle
     background-color: #000000;
     border: 2px solid #8f8f9d;
     border-radius: 5px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 25px;
     color: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
@@ -141,7 +138,6 @@ nav .column2:hover{
 
 nav .cases2{
     margin-top: 225px;
-    width: 100% auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -152,7 +148,6 @@ nav .cases2{
 
 nav .cases3{
     margin-top: 225px;
-    width: 100% auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
