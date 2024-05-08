@@ -90,8 +90,8 @@ label, #toggle
     background-color: #000000;
     border: 2px solid #8f8f9d;
     border-radius: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     padding-left: 25px;
     padding-right: 25px;
     color: rgb(255, 255, 255);
@@ -121,20 +121,44 @@ nav .column1{
     justify-items: center;
 }
 
+nav .column2{
+    margin-top: 200px;
+    margin-left: 175px;
+    align-self: center;
+    justify-items: center;
+}
+
 nav .column1:hover{
+    transform: scale(1.5);
+    transition: transform 330ms ease-in-out;
+}
+
+nav .column2:hover{
     transform: scale(1.5);
     transition: transform 330ms ease-in-out;
 }
 
 
 nav .cases2{
-    margin-top: 150px;
+    margin-top: 225px;
     width: 100% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    height: 30px;
+    float: left;
 }
 
 nav .cases3{
-    margin-top: 150px;
+    margin-top: 225px;
     width: 100% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    height: 30px;
+    float: left;
 }
 
 nav .text{
@@ -144,11 +168,21 @@ nav .text{
 
 
 @media screen and (max-width : 991px) {
+
     .bouton-lien{
         font-size: 10px;
     }
 
     nav .column1{
         margin-left: 35px;
+    }
+
+    nav .column2{
+        margin-left: 35px;
+        bottom: 20em;
+    }
+
+    nav .cases{
+        margin-bottom: 0px;
     }
 }
